@@ -1,0 +1,9 @@
+torch>=2.0
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+chardet
+tqdm
+neuraloperator

@@ -1,6 +1,6 @@
 # Spray Penetration Prediction
 
-The source code will be made publicly available upon acceptance of this paper.
+This repository contains the source code and pretrained models for the published paper cited below.
 Fourier Neural Operator (FNO) for spray tip penetration prediction. Two training modes: pure experimental data, and experimental + simulation mixed data.
 
 ## Repository Structure
@@ -117,3 +117,24 @@ metrics, scatter = run_inference(
 ## Notes
 
 This repository was restructured from the original research codebase with the assistance of AI. The inference pipeline is verified against the original results. Some redundancy remains in the code and will be cleaned up in a future revision.
+
+## Citation
+
+If you use this code or the pretrained models in your research, please cite:
+
+Fengjie Jing, Ming Jia, Xinyu Wang, Haoran Li, Yanzhi Zhang,
+"Predicting diesel liquid spray penetration via Fourier neural operators with experimental and simulated data fusion",
+*Fuel*, Volume 431, 2027, 142034.
+https://doi.org/10.1016/j.fuel.2026.142034
+
+```bibtex
+@article{jing2027predicting,
+  title   = {Predicting diesel liquid spray penetration via Fourier neural operators with experimental and simulated data fusion},
+  author  = {Jing, Fengjie and Jia, Ming and Wang, Xinyu and Li, Haoran and Zhang, Yanzhi},
+  journal = {Fuel},
+  volume  = {431},
+  pages   = {142034},
+  year    = {2027},
+  doi     = {10.1016/j.fuel.2026.142034}
+}
+```
